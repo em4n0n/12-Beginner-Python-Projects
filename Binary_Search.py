@@ -2,12 +2,12 @@ import random
 import time
 #[1, 3, 6, 7, 9, 12, 13]
 # implement naive search
-def naive_search(l, target):
+def naive_search(l, target): #l would be the list, and target would be 12(the number we are looking for)
     for i in range(len(l)):
         if l[i] == target:
             return i
 
-    return -1
+    return -1 #we haven't found the number yet 
 
 def binary_search(l, target, low=None, high=None):
     if low is None:

@@ -1,6 +1,6 @@
 # string concatenation (aka how to put strings together)
 # suppose we want to create a string that says "subscribe to ____"
-youtuber = "David"
+# youtuber = "David"
 
 # a few ways to do this
 #print("subscribe to " + youtuber)
